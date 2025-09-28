@@ -77,7 +77,7 @@ footer{
         justify-content: flex-end;
     }
     aside {
-        width: 20rem;
+        width: 1rem;
         position: relative;
         grid-column: 1/2;
         grid-row: 1/2;
