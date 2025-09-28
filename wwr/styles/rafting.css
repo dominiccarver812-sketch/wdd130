@@ -92,7 +92,7 @@ nav p section article{
     margin: 20px;
     padding: 5px;
 }
-.figure img {
+figure{
     display: flex;
     position: relative;
     justify-content: space-around;
@@ -101,9 +101,15 @@ nav p section article{
 }
 
 .socialmedia a{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
     text-decoration: none;
 }
 .socialmedia img{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
     width: 50px;
     height: auto;
 }
