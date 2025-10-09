@@ -80,6 +80,7 @@ header nav a {
 }
 .history img{
     display: grid;
+    position: relative;
     width: 150px;
     align-self: center;
     grid-column: 2/3;
@@ -134,12 +135,16 @@ nav p section article{
     margin: 20px;
     padding: 5px;
 }
-figure{
+.figure{
+    display: block;
+    width: 300px;
+}
+.figure img {
     display: flex;
     position: relative;
     justify-content: space-around;
-    width: 100px;
-    height: auto;
+    width: auto;
+    height: 100px;
 }
 .socialmedia a{
     display: grid;
