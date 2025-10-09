@@ -18,6 +18,9 @@
     width: 100%;
     height: auto;
 }
+.hero article p{
+    color: white;
+}
 header{
     display: grid;
     align-items: center;
@@ -152,7 +155,7 @@ nav p section article{
     grid-row: 2/4;
     grid-column: 1/2;
     position: relative;
-    text-decoration: none;
+    color: black;
 }
 .socialmedia img{
     display: flex;
