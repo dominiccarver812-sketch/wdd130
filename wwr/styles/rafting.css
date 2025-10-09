@@ -47,10 +47,15 @@ header nav a {
 .history section {
     display: grid;
     align-items: center;
+    grid-template-columns: repeat(3 1rem);
 }
 .contact section {
     display: grid;
     align-items: center;
+    grid-template-columns: repeat(2 1rem);
+    grid-template-rows: repeat(3 1rem);
+
+
 }
 .information{
     grid-row: 1/2;
