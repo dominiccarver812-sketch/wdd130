@@ -13,9 +13,6 @@
 .hero {
     position: relative;
 }
-.hero h1 {
-    color: black;
-}
 .hero img {
     display: block;
     width: 100%;
@@ -23,7 +20,7 @@
 }
 .hero article p{
     background-color: var(--secondary-color);
-    color: white;
+    color: var(--text-color);
 }
 header{
     display: grid;
@@ -112,7 +109,7 @@ header nav a {
     text-align: center;
     opacity: 0.7;
     background-color: var(--secondary-color);
-    color: #dad3d379;
+    color: var(--text-color);
 }
 .hero article{
     position: absolute;
