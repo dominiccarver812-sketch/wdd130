@@ -19,6 +19,7 @@
     height: auto;
 }
 .hero article p{
+    background-color: var(--secondary-color);
     color: white;
 }
 header{
