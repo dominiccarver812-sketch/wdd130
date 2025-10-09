@@ -13,6 +13,9 @@
 .hero {
     position: relative;
 }
+.hero h1 {
+    color: black;
+}
 .hero img {
     display: block;
     width: 100%;
@@ -109,7 +112,7 @@ header nav a {
     text-align: center;
     opacity: 0.7;
     background-color: var(--secondary-color);
-    color: #fff;
+    color: #dad3d379;
 }
 .hero article{
     position: absolute;
