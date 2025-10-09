@@ -79,13 +79,22 @@ header nav a {
     width: 200px;
 }
 .history img{
+    display: grid;
+    width: 150px;
     align-self: center;
     grid-column: 2/3;
 }
-.history p {
+.history-a p {
+    display: grid;
     width: 1rem;
     position: relative;
-    grid-column: 1/2, 3/4
+    grid-column: 1/2;
+}
+.history-b p {
+    display: grid;
+    width: 1rem;
+    position: relative;
+    grid-column: 3/4;
 }
 .hero h1 {
     position: absolute;
