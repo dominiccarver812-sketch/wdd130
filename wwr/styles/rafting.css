@@ -49,40 +49,40 @@ header nav a {
     align-items: center;
     grid-template-columns: repeat(3 1rem);
 }
-.contact section {
-    display: grid;
+.gridrow div {
+    display: block;
     align-items: center;
-    grid-template-columns: repeat(2 1rem);
-    grid-template-rows: repeat(3 1rem);
-
-
+    grid-row: 2/3;
+    grid-column: 1/2;
+    order: 0;
 }
 .information{
+    text-align: center;
     grid-row: 1/2;
     margin: 1rem;
 }
 .map {
+    position: relative;
     grid-column: 1/2;
-    grid-row: 2/3;
-    border: black solid 5px;
+    grid-row: 2/3;;
 }
 .employees{
-    grid-row: 3/4;
     display: flex;
-    border: black solid 5px;
+    grid-row: 3/4;
     text-align: center;
     width: 1rem;
-}    
+}
 .employees img{
     width: 100px;
     height: auto;
     justify-content: space-evenly;
 }
 .poll {
-    grid-row: 2/3;
-    grid-column: 2/3;
-    border: black solid 5px;
-    width: 200px;
+    position: absolute;
+    top: 400px;
+    right: 100px;
+    width: 500px;
+    font-size: xx-large;
 }
 .history img{
     display: grid;
