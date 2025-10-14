@@ -199,6 +199,7 @@ nav p section article{
     font-size: large;
 }
 .call{
+    padding: 10px;
     text-align: center;
     border: black dotted;
 }
@@ -207,4 +208,56 @@ nav p section article{
     color: darkblue;
     padding: 50px;
     font-size: larger;
+}
+h3{
+    text-align: center;
+}
+.trips{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    border: black solid 10px;
+}
+.trips h4{
+    grid-column: 1/2;
+    order: 0;
+    font-size: larger;
+}
+.trips img{
+    grid-column: 2/3;
+    order: 1;
+    width: auto;
+    height: 200px;
+}
+.trips p{
+    grid-column: 3/4;
+    order: 2;
+    font-size: large;
+    padding: 10px;
+    border: black dotted 5px;
+    margin: 15px;
+}
+.descriptions{
+    display: grid;
+    align-items: flex-start;
+    grid-template-columns: 250px, 300px, auto;
+    padding: 15px;
+    border: black solid 5px;
+}
+.descriptions h4{
+    grid-column: 1/2;
+    order: 0;
+    width: 200px;
+    text-decoration: underline;
+}
+.descriptions p{
+    grid-column: 1/2;
+    order: 0;
+    width: 250px;
+}
+.descriptions img {
+    grid-column: 2/3;
+    order: 1;
+    width: 250px;
+    height: auto;
 }
