@@ -159,36 +159,41 @@ nav p section article{
     width: auto;
     height: 100px;
 }
-.socialmedia a{
+.socialmedia {
     display: grid;
     grid-template-columns: 1rem 60px 60px 60px;
-    grid-row: 2/4;
+}
+.socialmedia a{
     grid-column: 1/2;
     position: relative;
     text-decoration: none;
     color: black;
 }
 .socialmedia img{
+    grid-column: 2/3;
     display: flex;
-    grid-template-columns: 1rem 60px 60px 60px;
-    grid-row: 2/4;
-    grid-column: 1/2;
-    position: relative;
+    justify-content: space-around;
     width: 50px;
     height: auto;
 }
-.purpose div{
+.purpose{
     display: grid;
-    grid-template-columns: 100px 100px;
+    align-items: center;
+    grid-template-rows: 150px auto;
+    padding: 10px;
+    border: black solid 7px;
 }
 .purpose img{
-    grid-column: 1/2;
+    display: flex;
+    justify-content: space-around;
+    grid-row: 1/2;
     order: 0;
     width: auto;
     height: 100px;
+    border: black solid 7px;
 }
 .purpose p{
-    grid-column: 2/3;
+    grid-row: 2/3;
     order: 1;
 }
 .homepoll{
